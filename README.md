@@ -7,8 +7,6 @@
 
 <br>
 
-# Cantinflas
-
 Cantinflas is a tiny, logic-less, template engine and subset of [Mustache](http://mustache.github.io/).
 Perfect for project scaffolding and other non-performance critical tasks.
 

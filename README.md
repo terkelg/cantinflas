@@ -2,7 +2,7 @@
   <img src="https://github.com/terkelg/cantinflas/raw/master/cantinflas.png" alt="Cantinflas" width="300" height="300" />
 </div>
 
-<h1 align="center">Cantinflas</h1>
+<h1 align="center">{{ Cantinflas }}</h1>
 <div align="center">
   <a href="https://npmjs.org/package/cantinflas">
     <img src="https://img.shields.io/npm/v/cantinflas.svg" alt="version" />

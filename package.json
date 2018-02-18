@@ -1,0 +1,30 @@
+{
+  "name": "cantinflas",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "description": "Tiny mustache-like template engine",
+  "homepage": "https://github.com/terkelg/cantinflas",
+  "repository": "terkelg/cantinflas",
+  "author": {
+    "name": "Terkel Gjervig",
+    "email": "terkel@terkel.com",
+    "url": "https://terkel.com"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "tape test/*.js | tap-spec"
+  },
+  "keywords": [
+    "template",
+    "replace",
+    "mustache",
+    "scaffolding"
+  ],
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  }
+}

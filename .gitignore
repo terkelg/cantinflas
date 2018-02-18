@@ -1,0 +1,20 @@
+# Editor-specific
+.idea
+*.sublime-project
+*.sublime-workspace
+*.swp
+.settings
+.vscode
+
+# Installed libs
+node_modules
+
+# Misc
+npm-debug.log
+.DS_Store
+ignore/
+dist/
+lerna-debug.log
+
+# Temporary
+package-lock.json

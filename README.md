@@ -1,9 +1,15 @@
+<div align="center">
+  <img src="https://github.com/terkelg/cantinflas/raw/master/cantinflas.png" alt="Cantinflas" width="300" height="300" />
+</div>
+
+<h1 align="center">Cantinflas</h1>
+<div align="center">Tiny mustache-like template engine in ~50 LOC</div>
+
+<br>
+
 # Cantinflas
 
-> Tiny mustache-like template engine in ~50 LOC
-
 Cantinflas is a tiny, logic-less, template engine and subset of [Mustache](http://mustache.github.io/).
-
 Perfect for project scaffolding and other non-performance critical tasks.
 
 

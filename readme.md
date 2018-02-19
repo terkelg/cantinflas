@@ -39,7 +39,7 @@ $ npm install catinflas
 
 ## Why
 
-I needed a simple way to replace a few placeholders as a part of a personal scaffolding tool. There's no need for big high-performance template engines with tons of dependencies when all you want to do is to replace a few placeholders.
+I needed a simple way to replace a few placeholders as a part of a scaffolding tool. There's no need for big high-performance template engines with tons of dependencies. I see a lot of CLI tools depend on projects like handlebars for stuff like this which in my opinion is overkill. KISS. XO.
 
 
 ## Usage

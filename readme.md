@@ -37,6 +37,10 @@ $ npm install catinflas
 - **familiar:** Cantinflas is almost a full mustache implementation
 - **formatting:** respects the formatting of your source files
 
+## Why
+
+I needed a simple way to replace a few placeholders as a part of a personal scaffolding tool. There's no need for big high-performance template engines with tons of dependencies when all you want to do is to replace a few placeholders.
+
 
 ## Usage
 

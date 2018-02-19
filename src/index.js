@@ -10,15 +10,14 @@ const escRGX = str => str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, '\\$&')
 /**
  * Compile templates with Mustache-like syntax
  * @param {String} template Input string
- * @param (Object} data Data object
+ * @param {Object} data Data object
  * @returns {String} Compiled output string
  */
 function cantinflas(template, data) {
     return render(template, data);
 
     function render(fragment, context) {
-        return fragment.replace(CHUNK, (...args) => {
-            const [chunk, tagstart, meta, name, tagend] = args;
+        return fragment.replace(CHUNK, (...[chunk, tagstart, meta, name, tagend]) => {
             const INLINE = new RegExp(`^.*${escRGX(tagstart)}.*${escRGX(tagend)}.*$`, 'm');
             const RGX = INLINE.test(chunk)
                 ? new RegExp(`{{[#^]${escRGX(name)}}}([\\s\\S]*?)${escRGX(tagend)}`, 'g')
@@ -30,7 +29,7 @@ function cantinflas(template, data) {
                     if (isArr(val)) {
                         return val.reduce((str, crr, i) => {
                             let ctx = {...context, '.': crr, '@index': i, '@last': i === val.length-1, '@first': i === 0};
-                            if (isArr(crr) || isObj(crr)) ctx = {...ctx, ...crr} // don't spread strings (all those chars might overvride user vars
+                            if (isArr(crr) || isObj(crr)) ctx = {...ctx, ...crr} // only spread objects and arrays - not strings
                             return str += render(inner, ctx);
                         }, '');
                     }

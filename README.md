@@ -53,7 +53,7 @@ const output = cantinflas(template, data);
 
 ## Tag Types
 
-Just as Mustahce, tags are indicated by the double curly brackets. `{{person}}` is a tag, as is `{{#person}}`.
+Just as Mustache, tags are indicated by the double curly brackets. `{{person}}` is a tag, as is `{{#person}}`.
 
 ### Variables
 

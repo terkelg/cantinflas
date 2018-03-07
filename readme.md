@@ -26,7 +26,7 @@ Perfect for project scaffolding and other non-performance critical tasks.
 ## Install
 
 ```
-$ npm install catinflas
+$ npm install cantinflas
 ```
 
 ## Core Features

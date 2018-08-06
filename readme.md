@@ -33,6 +33,7 @@ $ npm install cantinflas
 
 - **lightweight:** zero dependencies and only ~50 LOC
 - **powerful:** support all the features you'd expect from a template-engine
+- **safe**: No `eval()` or `new Function()`
 - **minimal API:** one function call, that's all it take
 - **familiar:** Cantinflas is almost a full mustache implementation
 - **formatting:** respects the formatting of your source files

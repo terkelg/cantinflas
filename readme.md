@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/terkelg/cantinflas/raw/master/cantinflas.png" alt="Cantinflas" width="300" height="300" />
+  <img src="https://github.com/terkelg/cantinflas/raw/master/cantinflas.png" alt="Cantinflas" width="300" />
 </div>
 
 <h1 align="center">{{ Cantinflas }}</h1>

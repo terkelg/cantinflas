@@ -24,7 +24,7 @@
     "scaffolding"
   ],
   "devDependencies": {
-    "tap-spec": "^4.1.1",
-    "tape": "^4.8.0"
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
   }
 }

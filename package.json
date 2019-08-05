@@ -1,6 +1,6 @@
 {
   "name": "cantinflas",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "src/index.js",
   "description": "Tiny mustache-like template engine",
   "homepage": "https://github.com/terkelg/cantinflas",
